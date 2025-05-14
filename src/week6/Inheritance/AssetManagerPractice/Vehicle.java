@@ -50,7 +50,6 @@ public class Vehicle extends Asset{
         }
         return calculatePrice(yrsOld, reduce);
 
-
     }
 
     public double calculatePrice(int yearsOld, double reduce){
