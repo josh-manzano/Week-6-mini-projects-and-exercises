@@ -5,7 +5,6 @@ public class GroceryStore {
         Product myApple2 = new DiscountedProduct("Apple", 10.00);
         Product myBanana = new Product("Banana", 7.99);
 
-
         Cart myCart = new Cart();
         myCart.addItem(myApple2);
         myCart.addItem(myBanana);

@@ -14,7 +14,7 @@ public class Cart {
 
     public void printReceipt(){
         for(Product itemInCart : items){
-            System.out.println("\nItem: " + itemInCart.getName() + " | " + "Price: " + String.format("%.2f", itemInCart.getFinalPrice()));
+            System.out.println("\nItem: " + itemInCart.getName() + " | " + "Price: $" + String.format("%.2f", itemInCart.getFinalPrice()));
         }
         System.out.println("\nSubtotal: $" + String.format("%.2f", totalNoTax()) + " | Tax: $" + String.format("%.2f", justTax()) + " | Final Total: $" + String.format("%.2f", totalWTax()));
     }
